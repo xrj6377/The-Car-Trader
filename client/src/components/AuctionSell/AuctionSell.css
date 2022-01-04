@@ -1,0 +1,77 @@
+body{
+    /* background-image: url(https://thumbs.dreamstime.com/b/car-fixing-garage-27814540.jpg); */
+    height:100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.auction_form{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: rgb(224, 236, 247);
+    border-radius: 10px;
+}
+
+.auction_participant_info {
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    margin-left:30px;
+}
+
+
+#auction_form_header{
+    margin-left: 30px;
+
+}
+
+
+.auction_car_info{
+    margin-left:30px;
+}
+#car_description{
+
+    width: 500px;
+    height:350px;
+}
+
+.container{
+    margin-left: 45px;
+    height:300px;
+    width:100%;
+    margin-right: 45px;
+}
+
+
+.img-holder{
+    width: 150px;
+    height: 150px;
+    /* border: 3px solid white;
+    border-radius: 3px; */
+}
+
+.img{
+    width:150px;
+    height:150px;
+    
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.submit_btn {
+    display: block;
+    width: 70%;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    
+}

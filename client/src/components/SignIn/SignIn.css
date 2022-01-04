@@ -1,0 +1,46 @@
+.loginWrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    z-index: 99;
+}
+
+.loginBox{
+    height: 430px;
+    width: 350px;
+    background-color: rgb(117, 148, 172);
+    position: absolute;
+    z-index: 999;
+    border-radius: 5%;
+    display: flex;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    font-weight: bold;
+    }
+.closeBtn{
+    align-self: right;
+    position:relative;
+}
+.hideBtn{
+    display:inline-block;
+    margin-top:15px;
+    margin-left:-40px;
+}
+.revealBtn{
+    display:inline-block;
+    margin-top:15px;
+    margin-left:-40px;
+}

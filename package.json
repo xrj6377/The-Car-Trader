@@ -1,0 +1,29 @@
+{
+    "name": "car_trader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.4.2",
+        "connect-mongo": "4.6.0",
+        "connect-multiparty": "^2.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "mongodb": "^3.6.3",
+        "mongoose": "^5.10.15",
+        "save": "^2.4.0",
+        "validator": "^13.7.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    },
+    "engines": {
+        "node": "10.16.0"
+    },
+    "author": "",
+    "license": "ISC"
+}

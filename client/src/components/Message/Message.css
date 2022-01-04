@@ -1,0 +1,48 @@
+#message {
+    border: 1px solid;
+    margin-top: 5px;
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#messageBody {
+    display: inline-block;
+    width: 60%;
+}
+
+#markAsReadBtn {
+    display: inline-block;
+    height: 30px;
+}
+
+#replyBtn {
+    display: inline-block;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#deleteBtn {
+    display: inline-block;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#replyBox input {
+    width: 75%;
+    min-height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#replyBox button {
+    margin-left: 10px;
+}
+
+.replyStatus-good {
+    color: green
+}
+
+.replyStatus-bad {
+    color: red
+}

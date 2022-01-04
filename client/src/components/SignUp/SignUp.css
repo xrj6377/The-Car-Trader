@@ -1,0 +1,21 @@
+.signUpBox{
+    height: 580px;
+    width: 400px;
+    background-color: rgb(117, 148, 172);
+    position: absolute;
+    z-index: 999;
+    border-radius: 5%;
+    display: flex;
+}
+
+.SignUpContent{
+    margin-top: 45px;
+    margin-left: 55px;
+    font: 30px Arial, sans-serif;
+    font-weight: bold;
+    }
+
+.closeBtn{
+    align-self: right;
+    position:relative;
+}

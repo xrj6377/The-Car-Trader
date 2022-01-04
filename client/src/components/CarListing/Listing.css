@@ -1,0 +1,40 @@
+.carPicContainer{
+    width: 80px;
+	float:left;
+}
+
+.carPic{
+    width: 160px;
+    height: 100px;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin-top: 8px !important;
+}
+
+.listing {
+	min-height:  100px;
+	overflow: auto;
+	border-bottom: 1px solid grey;
+    padding-top: 5px;
+}
+
+.listingSpan {
+	display: table-cell;
+    vertical-align: middle;
+	font-size: 110%;
+    min-width: 200px;
+    padding-right: auto;
+}
+
+.listingSpan.carName {
+    width: 400px;
+}
+
+.listingContent{
+    margin-left: 180px;
+    text-align: center;
+	display: table;
+    border-spacing: 0 30px;
+    border-collapse: separate;
+}

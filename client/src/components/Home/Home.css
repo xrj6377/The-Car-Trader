@@ -1,0 +1,48 @@
+.welcome_message_container{
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(224, 236, 247);
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.welcome_message{
+    position: absolute;
+
+
+}
+
+.wrapper {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(224, 236, 247);
+    border: 1px solid black;
+    border-radius: 22px;
+    height: 30px;
+    /*This part is important for centering*/
+    display: flex;
+  }
+  
+.typing-demo {
+    margin-left: 40px;
+    width: 29ch;
+    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 19px;
+}
+  
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

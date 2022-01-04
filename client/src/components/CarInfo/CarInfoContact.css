@@ -1,0 +1,63 @@
+#contact-header {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.contact-form {
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+
+}
+
+
+.form-control {
+    margin: 20px 0;
+}
+
+#name {
+    height: 40px;
+}
+
+#email {
+    height: 40px;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+.btn {
+    display: block;
+    width: 90%;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 0 ;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+#message-input {
+    height: 80px;
+}
+
+.messageResponse-good {
+    color: green
+}
+
+.messageResponse-bad {
+    color: red
+}

@@ -1,0 +1,24 @@
+.featureListing {
+
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    
+    /* background-color: rgb(224, 236, 247); */
+    
+}
+
+.featureListingContainer {
+    width: 80%;
+    min-height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(224, 236, 247);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.listingTitle {
+    font-size: x-large;
+}

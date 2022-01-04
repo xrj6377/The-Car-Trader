@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+#name {
+    width: 70%;
+    padding-left: 3%;
+    /* text-align: center; */
+}
+
+#price {
+    padding-right: 3%;
+    text-align: left;
+    width: 30%;
+}
